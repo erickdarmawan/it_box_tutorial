@@ -12,10 +12,10 @@ class Jawaban extends StatelessWidget {
       width: double.infinity,
       child: ElevatedButton(
         onPressed: handlePilih,
-        child: Text(jawabanText),
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.blue,
         ),
+        child: Text(jawabanText),
       ),
     );
   }
